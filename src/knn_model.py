@@ -1,5 +1,5 @@
 from sklearn.neighbors import KNeighborsClassifier
-import numpy as np
+
 
 class KNNModel:
     '''
@@ -18,6 +18,7 @@ class KNNModel:
         self.algorithm = algorithm
         self.model = KNeighborsClassifier(n_neighbors=self.n_neighbors, algorithm=self.algorithm)
 
+
     def fit(self, X_train, y_train):
         '''
         Обучение модели KNN.
@@ -27,6 +28,7 @@ class KNNModel:
             y_train (array-like): Обучающие метки.
         '''
         self.model.fit(X_train, y_train)
+
 
     def predict(self, X_test):
         '''
@@ -39,6 +41,7 @@ class KNNModel:
             array-like: Предсказанные классы.
         '''
         return self.model.predict(X_test)
+
 
     def kneighbors(self, X, n_neighbors=None):
         '''

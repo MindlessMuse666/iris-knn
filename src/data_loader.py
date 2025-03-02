@@ -1,6 +1,6 @@
-import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
+
 
 class DataLoader:
     '''
@@ -24,6 +24,7 @@ class DataLoader:
             self.X, self.y, test_size=self.test_size, random_state=self.random_state
         )
 
+
     def get_data(self):
         '''
         Возвращает данные для обучения и тестирования.
@@ -33,6 +34,7 @@ class DataLoader:
         '''
         return self.X_train, self.X_test, self.y_train, self.y_test
 
+
     def get_feature_names(self):
         '''
         Возвращает названия признаков.
@@ -41,6 +43,7 @@ class DataLoader:
             list: Названия признаков.
         '''
         return self.iris.feature_names
+
 
     def get_target_names(self):
         '''
