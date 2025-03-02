@@ -45,6 +45,7 @@
 <p align="center">
   <img src="report\lecture-notes\lecture-notes-1.jpg" alt="lecture-notes-1.jpg">
   <img src="report\lecture-notes\lecture-notes-2.jpg" alt="lecture-notes-2.jpg">
+  <img src="report\lecture-notes\lecture-notes-3.jpg" alt="lecture-notes-3.jpg">
 </p>
 
 ## 3. Методика и подходы
