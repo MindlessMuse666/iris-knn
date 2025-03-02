@@ -18,27 +18,33 @@
 
 #### 2.1.1. Основной скрипт [main.py](src/main.py)
 <p align="center">
-  <img src="" alt="main.py">
+  <img src="https://github.com/user-attachments/assets/89174305-aaab-473d-bd4b-8c58e7560234" alt="main.py">
 </p>
 
 #### 2.1.2. Скрипт загрузки данных [data_loader.py](src/data_loader.py)
 <p align="center">
-  <img src="" alt="data_loader.py">
+  <img src="https://github.com/user-attachments/assets/a89d2b4c-dd77-4714-bc1a-4e26bb27e1d1" alt="data_loader.py">
 </p>
 
 #### 2.1.3. Скрипт обучения и предсказания с использованием KNN [knn_model.py](src/knn_model.py)
 <p align="center">
-  <img src="" alt="knn_model.py">
+  <img src="https://github.com/user-attachments/assets/e05a9044-0f2e-40c7-8d05-fd3d261523a2" alt="knn_model.py">
 </p>
 
 #### 2.1.4. Скрипт расчета метрик оценки модели [metrics.py](src/metrics.py)
 <p align="center">
-  <img src="" alt="metrics.py">
+  <img src="https://github.com/user-attachments/assets/5373d464-5d78-477d-9074-a493192fdaf8" alt="metrics.py">
 </p>
 
 #### 2.1.5. Скрипт визуализации результатов [knn_model.py](src/visualization.py)
 <p align="center">
-  <img src="" alt="visualization.py">
+  <img src="https://github.com/user-attachments/assets/4907dc65-5d26-4526-ba34-764dafed76b2" alt="visualization.py">
+</p>
+
+### 2.2. Конспект лекции
+<p align="center">
+  <img src="report\lecture-notes\lecture-notes-1.jpg" alt="lecture-notes-1.jpg">
+  <img src="report\lecture-notes\lecture-notes-2.jpg" alt="lecture-notes-2.jpg">
 </p>
 
 ## 3. Методика и подходы
@@ -125,6 +131,9 @@
 * **f1\_score:** `1.0`
 
 **Кросс-валидация (accuracy):** `0.9666666666666668 (+/- 0.04472135954999579)`
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/297177ed-f8a4-44be-88f8-ce191f285517" alt="console_output">
+</p>
 
 ## 6. Выводы
 
